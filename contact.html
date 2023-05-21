@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Under Construction</title>
+    <style>
+        .banner {
+            background-image: url(blackBG.png);
+            object-fit: cover;
+            background-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .navabar {
+            width: 50%;
+            margin: auto;
+            padding: 15px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgba(26, 24, 24, 0.3);
+        }
+
+        .logo {
+            width: 120px;
+            cursor: pointer;
+            display: grid;
+            border-color: #FCA311;
+            border-style: inset;
+            border: 4;
+            align-items: right;
+            width: 150px;
+            height: 100px;
+        }
+
+        .navabar ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+
+        .navabar ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+        }
+
+        .navabar ul li::after {
+            margin-top: 15px;
+            content: '';
+            height: 5px;
+            width: 0;
+            background: rgb(204, 106, 163);
+            position: absolute;
+            left: 0;
+            transition: 0.5s;
+        }
+
+        .navabar ul li:hover:after {
+            width: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 100px auto;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #888;
+        }
+
+        p {
+            font-size: 18px;
+            color: #888;
+        }
+
+        .construction-image {
+            width: 300px;
+            height: 200px;
+            margin: 20px auto;
+            border-color: #FCA311;
+            border-style: inset;
+            border: 4;
+            align-items: right;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navabar">
+            <img src="nortories-logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="githubpage.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img src="nortories-logo.png" class="logo">
+        </div>
+        <h1>Website Under Construction</h1>
+        <img class="construction-image" src="nortories-logo.png" alt="Under Construction Image">
+        <p>We apologize for the inconvenience, but this webpage is currently under construction.</p>
+        <p>Please check back later for updates and exciting content.</p>
+</body>
+<footer class="foot">
+    <nav>
+      <a href="https://www.copyright.gov" style="color: #E5E5E5;" class="copy-right">&copy;2023 Joshua Sooaemalelagi</a>
+    </nav>
+  </footer>
+
+</html>

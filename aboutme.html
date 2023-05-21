@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Joshua Sooaemalelagi</title>
+  <style>
+    .banner {
+      background-image: url(aboutme.jpg);
+      object-fit: stretch;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .navabar {
+      width: 50%;
+      margin: auto;
+      padding: 15px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgba(26, 24, 24, 0.3);
+    }
+
+    .logo {
+      width: 120px;
+      cursor: pointer;
+      display: grid;
+      border-color: #FCA311;
+      border-style: inset;
+      border: 4;
+      align-items: right;
+      width: 150px;
+      height: 100px;
+    }
+
+    .navabar ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 0 20px;
+      position: relative;
+    }
+
+    .navabar ul li a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+    }
+
+    .navabar ul li::after {
+      margin-top: 15px;
+      content: '';
+      height: 5px;
+      width: 0;
+      background: rgb(204, 106, 163);
+      position: absolute;
+      left: 0;
+      transition: 0.5s;
+    }
+
+    .navabar ul li:hover:after {
+      width: 100%;
+    }
+
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h1 {
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+
+    .highlights{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .sum-highlight-list {
+      margin-bottom: 20px;
+      border: 15px solid #881818;
+      padding: 10px;
+      background-color: #f9f9f9;
+      display: inline-block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .experience {
+      margin-bottom: 20px;
+      border: 15px solid #881818;
+      padding: 10px;
+      background-color: #f9f9f9;
+      display: inline-block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .education {
+      margin-bottom: 20px;
+      border: 15px solid #881818;
+      padding: 10px;
+      background-color: #f9f9f9;
+      display: inline-block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 0 20px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="banner">
+    <div class="navabar">
+      <img src="nortories-logo.png" class="logo">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li><a href="githubpage.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <img src="nortories-logo.png" class="logo">
+    </div>
+    </head>
+</body>
+
+<body>
+  <h1>Resume</h1>
+
+  <div class="row">
+    <div class="sum-highlight-list">
+      <h2>Summary</h2>
+      <p>Dependable and hard-working student with experience in construction,
+        computer technologies and electronics, seeking a position in AV Productions.
+        Able to take direction, very reliable and good at communicating in a team.</p>
+      <p>Joshua Sooaemalelagi : (208) 840-0368</p>
+      <p>Sooaemalelagij@gmail.com</p>
+
+      <h2>Highlights</h2>
+      <div class="highlights">
+      <ul>
+        <li>Ability to use various types of equipment and tools</li>
+        <li>Great understanding of electrical principles</li>
+        <li>Experience with computer networks</li>
+        <li>Comfortably at heights</li>
+      </ul>
+      <ul>
+        <li>Can lift 100+lbs</li>
+        <li>Personable </li>
+        <li>Reliable</li>
+        <li>Follow direction</li>
+      </ul>
+    </div>
+    </div>
+
+    <div class="experience">
+      <h2>Experience</h2>
+      <div>
+        <h3>Construction Foreman (Waterproofing) - 2018-2022</h3>
+        <ul>
+          <li>Managed a team of workers</li>
+          <li>Performed heavy labor</li>
+          <li>Mastered proficiency in various equipment and tools</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Student for Software Engineering - 2019-Currently</h3>
+        <ul>
+          <li>Proficient in many software programs</li>
+          <li>Troubleshoot computer network issues</li>
+          <li>Manage multiple tasks simultaneously</li>
+          <li>Keep organized and communicate well with others</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Electrical Repairs - 2018-Currently</h3>
+        <ul>
+          <li>Multiple home renovations</li>
+          <li>Video game cabinet electrical repairs</li>
+          <li>Built own personal computers</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="education">
+      <h2>Education</h2>
+      <p>BYU Idaho University (working on Bachelor's degree in Software Engineering)</p>
+    </div>
+  </div>
+</body>
+
+</html>
